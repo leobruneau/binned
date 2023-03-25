@@ -1,6 +1,6 @@
 # binned
 
-A new Flutter project.
+Your recycling partner!
 
 ## Getting Started
 
