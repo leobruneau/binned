@@ -5,6 +5,7 @@ const Color asparagus = Color.fromARGB(255, 106, 153, 78);
 const Color yellowGreen = Color.fromARGB(255, 167, 201, 87);
 const Color parchment = Color.fromARGB(255, 242, 232, 207);
 const Color shimmer = Color.fromARGB(255, 188, 71, 73);
+const Color rosy = Color.fromARGB(255, 215, 152, 140);
 
 class CustomTheme {
   final ThemeData theme = ThemeData();
@@ -28,8 +29,9 @@ class CustomTheme {
               fontWeight: FontWeight.bold,
             ),
           ),
-      cardColor: asparagus,
+      cardColor: Colors.grey[300],
       canvasColor: parchment,
+      splashColor: shimmer,
       iconTheme: IconThemeData(
         color: shimmer,
         size: 30,

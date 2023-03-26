@@ -17,20 +17,23 @@ class MainDrawer extends StatelessWidget {
             ),
             child: Container(
               decoration: BoxDecoration(
-                borderRadius: BorderRadius.circular(20),
-                // border: Border.all(
-                //   width: 5.0,
-                //   // color: Theme.of(context).shadowColor,
-                //   color: Colors.black45,
-                // ),
-                color: Colors.black38,
+                borderRadius: BorderRadius.circular(10),
+                color: Colors.white54,
               ),
               child: Stack(
                 alignment: Alignment.center,
                 children: <Widget>[
-                  Text(
-                    'binned',
-                    style: Theme.of(context).textTheme.titleLarge,
+                  Container(
+                    margin: EdgeInsets.only(
+                      left: 20,
+                      right: 20,
+                    ),
+                    child: Image.asset(
+                      'assets/images/binned_logo.png',
+                      height: 250,
+                      width: 300,
+                      fit: BoxFit.cover,
+                    ),
                   ),
                 ],
               ),

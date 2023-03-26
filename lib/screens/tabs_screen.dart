@@ -5,6 +5,7 @@ import './map_screen.dart';
 import './qr_code_scanner_screen.dart';
 import './rankings_screen.dart';
 import '../widgets/main_drawer.dart';
+import '../screens/settings_screen.dart';
 
 class TabsScreen extends StatefulWidget {
   @override
@@ -43,7 +44,8 @@ class _TabsScreenState extends State<TabsScreen> {
         ),
         actions: <Widget>[
           IconButton(
-            onPressed: () {},
+            onPressed: () =>
+                Navigator.of(context).pushNamed(SettingsScreen.routeName),
             icon: const Icon(Icons.settings),
           )
         ],
